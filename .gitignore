@@ -15,17 +15,19 @@
 *.dbmdl
 *.dbproj.schemaview
 
-/TaskManagementApp.Client/node_modules/
-/TaskManagementApp.Client/build/
-/TaskManagementApp.Client/dist/
+/task-management-app.client/node_modules/
+/task-management-app.client/build/
+/task-management-app.client/dist/
+/task-management-app.client/dist-ssr/
+*.local
 *.env
-npm-debug.log*
+/task-management-app.client/npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.vscode/
+/task-management-app.client/.vscode/
 *.vs/
-*.vscode/
+*.vscode/*
 
 .DS_Store
 Thumbs.db
