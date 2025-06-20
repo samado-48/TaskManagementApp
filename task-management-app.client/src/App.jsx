@@ -8,8 +8,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Base URL for the API. Adjust if your backend runs on a different port/host.
-  const API_BASE_URL = 'https://localhost:7106/api/tasks'; // Default for ASP.NET Core HTTPS development
+  const API_BASE_URL = import.meta.env.VITE_API_URL;
 
   // Fetch tasks from the API
   const fetchTasks = async () => {
